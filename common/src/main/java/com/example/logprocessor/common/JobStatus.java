@@ -1,8 +1,8 @@
 package com.example.logprocessor.common;
 
 public enum JobStatus {
-    ACCEPTED,
-    PROCESSING,
+    QUEUED,
+    RUNNING,
     COMPLETED,
     FAILED
 }
